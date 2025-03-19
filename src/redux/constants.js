@@ -1,9 +1,7 @@
-const apiUrl = import.meta.env.VITE_API_URL;
-
-export const BASE_URL=""
-export const USERS_URL = `${apiUrl}/api/users`;
-export const CATEGORY_URL = `${apiUrl}/api/category`;
-export const PRODUCT_URL = `${apiUrl}/api/products`;
-export const UPLOAD_URL = `${apiUrl}/api/upload`;
-export const ORDERS_URL = `${apiUrl}/api/orders`;
-export const PAYPAL_URL = `${apiUrl}/api/config/paypal`;
+export const BASE_URL = import.meta.env.VITE_API_URL;
+export const USERS_URL = "/api/users";
+export const CATEGORY_URL = "/api/category";
+export const PRODUCT_URL = "/api/products";
+export const UPLOAD_URL = "/api/upload";
+export const ORDERS_URL = "/api/orders";
+export const PAYPAL_URL = "/api/config/paypal";
