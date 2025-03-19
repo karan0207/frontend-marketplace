@@ -1,5 +1,6 @@
 const apiUrl = import.meta.env.VITE_API_URL;
 
+export const BASE_URL=""
 export const USERS_URL = `${apiUrl}/api/users`;
 export const CATEGORY_URL = `${apiUrl}/api/category`;
 export const PRODUCT_URL = `${apiUrl}/api/products`;
